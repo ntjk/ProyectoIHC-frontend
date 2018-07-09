@@ -25,13 +25,19 @@
         </span>
 <span class="contenedor izquierdo">
             <div class="formatoTitulo titulo2">
-                <a href="" style="text-decoration:none;"> <!-- aqui en href enlace a la prox pantalla> -->
+                <a onclick="clickHandler()" href="" style="text-decoration:none;"> <!-- aqui en href enlace a la prox pantalla> -->
                     Horarios guardados
                 </a>
             </div>
-            <a href=""> <!-- aqui enlace a la prox pantalla> -->
+            <a onclick="clickHandler()" href=""> <!-- aqui enlace a la prox pantalla> -->
                 <img src="img/horarios_guardados.png" width="340" alt="img horario"/>
             </a>
+            <script type="text/javascript">
+                function clickHandler() {
+                    alert('Acción no permitida por el momento');
+                }
+                startLogic();
+            </script>
         </span>
 <span class="lateral izq"></span>
 </body>
